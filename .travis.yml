@@ -10,4 +10,4 @@ arch:
 
 script: 
  - go test -v ./pkg/...  -tags=e2e
- - SYSTEM_NAMESPACE=knative-eventing go test -v -tags=e2e -count=1 ./test/e2e -tag e2e
+ - test/presubmit-tests.sh
