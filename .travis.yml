@@ -7,3 +7,5 @@ go:
 arch:
  - amd64
  - ppc64le
+
+script: go test -v ./...
