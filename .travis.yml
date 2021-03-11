@@ -10,4 +10,3 @@ arch:
 
 script: 
  - go test -v ./pkg/...  -tags=e2e
- - test/presubmit-tests.sh
